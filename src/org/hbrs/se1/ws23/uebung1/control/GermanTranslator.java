@@ -11,7 +11,6 @@ public class GermanTranslator implements Translator {
 		try {
 			String[] zahlen = {"eins","zwei","drei","vier","fuenf","sechs","sieben","acht","neun","zehn"};
 			// [ihr Source Code aus Übung 1-2]
-
 			return zahlen[number-1];
 		} catch (Exception e){
 			throw new IllegalArgumentException("Übersetzung der Zahl " + number + " nicht möglich " + "version des Translator " + Translator.version);
